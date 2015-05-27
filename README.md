@@ -27,4 +27,4 @@ This program still works like the normal `ping`. It just has a little secret �
 
 # Why did you even bother
 
-This is me attempting to learn a little C. Even though I didn't do much, I'm so proud that it compiles. So if you don't like it buzz off 🐝🐝🐝🐝
+This is me attempting to learn a little C. Even though I didn't do much, I'm stoked that it compiles & works. So if you don't like it buzz off 🐝🐝🐝🐝
